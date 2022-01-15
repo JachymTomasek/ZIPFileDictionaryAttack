@@ -18,10 +18,10 @@ with open(dictionary_path, "r", encoding="utf-8") as f:
 
                 try:
                     my_zip.extractall(pwd=my_password)
-                    print("spravne", string_pwd)
+                    print("True", string_pwd)
                     correct_pwd = True
                 except Exception as e:
-                    print("spatne")
+                    print("False")
                     correct_pwd = False
         else:
             break
