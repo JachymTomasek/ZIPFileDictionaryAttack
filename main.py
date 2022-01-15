@@ -1,7 +1,7 @@
 import pyzipper
 
-zip_path = input("ZIP file path: ")
-dictionary_path = input("Dictionary TXT file path: ")
+zip_path = input("ZIP file path: ")    # path of ZIP
+dictionary_path = input("Dictionary TXT file path: ")    # path of dictionary
 
 with open(dictionary_path, "r", encoding="utf-8") as f:
 
